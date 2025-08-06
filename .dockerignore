@@ -1,0 +1,45 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Git
+.git/
+.gitignore
+
+# IDEs
+.vscode/
+.idea/
+
+# Documentation (no necesaria en container)
+*.md
+README*
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Results directory (se regenera automáticamente)
+results/
+
+# Exports directory (se regenera automáticamente)  
+exports/
